@@ -743,10 +743,18 @@ ol {
 
 .hero__text h2 {
 	font-size: 46px;
-	color: #252525;
+	color:white;
+	;
+	text-shadow: 1px 1px 2px
+	rgba(0,0,0,0.5);
 	line-height: 52px;
 	font-weight: 700;
 	margin: 10px 0;
+}
+.texto p{
+	color:white;
+	text-shadow: 1px 1px 2px
+	rgba(0,0,0,0.5);
 }
 
 .hero__text p {
