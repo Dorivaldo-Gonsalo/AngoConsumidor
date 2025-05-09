@@ -33,9 +33,15 @@
     <div class="humberger__menu__overlay"></div>
     <div class="humberger__menu__wrapper">
         <div class="humberger__menu__logo">
-            <a href="#"><img src="img/logo/logo.jpg" alt="logo" width="50" height="50" style="margin: 0 5rem;"></a>
-            <p style="text-align: center;"> AngoConsumidor</p>
-        </div> 
+            <a href="#"><img src="img/logo.png" alt=""></a>
+        </div>
+        <div class="humberger__menu__cart">
+            <ul>
+                <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
+                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+            </ul>
+            <div class="header__cart__price">item: <span>$150.00</span></div>
+        </div>
         <div class="humberger__menu__widget">
             <div class="header__top__right__language">
                 <img src="img/language.png" alt="">
@@ -47,22 +53,23 @@
                 </ul>
             </div>
             <div class="header__top__right__auth">
-                <a href="/Pages/Usuario/main.html"><i class="fa fa-user"></i> Login</a>
+                <a href="#"><i class="fa fa-user"></i> Login</a>
             </div>
         </div>
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
                 <li class="active"><a href="./index.html">Home</a></li>
-                <li><a href="./shop-grid.html">About us</a></li>
-                <li><a href="#">Hacking</a>
+                <li><a href="./shop-grid.html">Shop</a></li>
+                <li><a href="#">Pages</a>
                     <ul class="header__menu__dropdown">
-                        <li><a href="./shop-details.html">Empresas</a></li>
-                        <li><a href="./shoping-cart.html">Consumidores</a></li>
-                        <li><a href="./checkout.html">Produtos</a></li>
+                        <li><a href="./shop-details.html">Shop Details</a></li>
+                        <li><a href="./shoping-cart.html">Shoping Cart</a></li>
+                        <li><a href="./checkout.html">Check Out</a></li>
+                        <li><a href="./blog-details.html">Blog Details</a></li>
                     </ul>
                 </li>
                 <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./contact.html">Contactos</a></li>
+                <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
         <div id="mobile-menu-wrap"></div>
@@ -111,7 +118,7 @@
                                 </ul>
                             </div>
                             <div class="header__top__right__auth">
-                                <a href="/Pages/Usuario/main.html"><i class="fa fa-user"></i> Login</a>
+                                <a href="contact.html"><i class="fa fa-user"></i> Login</a>
                             </div>
                         </div>
                     </div>
@@ -157,11 +164,35 @@
     <!-- Hero Section Begin -->
     <section class="hero">
         <div class="container">
-            <div style="align-items: center;">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="hero__categories">
+                        <div class="hero__categories__all">                     
+                            <span> My Profile</span>
+                        </div>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
                 <div class="col-lg-9">
-                    <div class="hero__search" style="justify-content: space-between; align-items: center;">
+                    <div class="hero__search">
                         <div class="hero__search__form">
                             <form action="#">
+                                <div class="hero__search__categories">
+                                    Insira a categoria
+                                    <span class="arrow_carrot-down"></span>
+                                </div>
                                 <input type="text" placeholder="escreva aqui">
                                 <button type="submit" class="site-btn">Pesquisar</button>
                             </form>
@@ -171,17 +202,18 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5>+244 955290301</h5>
+                                <h5>+244 923868208</h5>
                                 <span>Tempo de suporte 24/7</span>
                             </div>
                         </div>
                     </div>
-                    <div class="hero__item set-bg" data-setbg="/img/welcome/fundo.jpg" style="width: 1100px; ">
+                    <div class="hero__item set-bg" data-setbg="/img/welcome/fundo.jpg">
                         <div class="hero__text">
-                            <span>Luanda</span>
+                            <span>Angola</span>
                             <h2>Bem vindos ao<br />AngoConsumidor</h2>
                             <div class="texto">
-                            <p>O Site onde tu podes classificar e ver o ranking de todos os produtos do seu dia-a-dia e onede podes dar a tua opinião!</p>
+                            <p>O Site onde tu podes classificar e ver o ranking de todos os produtos do seu dia-a-dia e onede podes dar a tua opinião!
+                            </p>
                         </div>
                             <a href="#" class="primary-btn">Ver agora</a>
                         </div>
