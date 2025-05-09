@@ -8,7 +8,7 @@
 }
 
 body {
-	background: linear-gradient(90deg, green, greenyellow);		
+	background: linear-gradient(90deg, #d58a24, #8d0000);		
 }
 
 .container {
@@ -19,11 +19,11 @@ body {
 }
 
 .screen {		
-	background: linear-gradient(90deg, green, greenyellow);		
+	background: linear-gradient(90deg, #d58a24, greenyellow);		
 	position: relative;	
 	height: 600px;
 	width: 360px;	
-	box-shadow: 0px 0px 24px green;
+	box-shadow: 0px 0px 24px #8d0000;
 }
 
 .screen__content {
@@ -60,7 +60,7 @@ body {
 .screen__background__shape2 {
 	height: 220px;
 	width: 220px;
-	background: green;	
+	background: #d58a24/*#8d0000*/;	
 	top: -172px;
 	right: 0;	
 	border-radius: 32px;
@@ -69,7 +69,7 @@ body {
 .screen__background__shape3 {
 	height: 540px;
 	width: 190px;
-	background: linear-gradient(270deg, green, green);
+	background: linear-gradient(270deg, #d58a24, green);
 	top: -24px;
 	right: 0;	
 	border-radius: 32px;
@@ -78,7 +78,7 @@ body {
 .screen__background__shape4 {
 	height: 400px;
 	width: 200px;
-	background: green;	
+	background: #d58a24;	
 	top: 420px;
 	right: 50px;	
 	border-radius: 60px;
@@ -98,12 +98,12 @@ body {
 .login__icon {
 	position: absolute;
 	top: 30px;
-	color: green;
+	color: #8d0000;
 }
 
 .login__input {
 	border: none;
-	border-bottom: 2px solid green;
+	border-bottom: 2px solid #8d0000;
 	background: none;
 	padding: 10px;
 	padding-left: 24px;
